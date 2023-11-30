@@ -1,0 +1,179 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/golden_gate_bridge.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+	
+}
+
+.center {
+    width: 55%;
+	min-width: 200px; /*these are for responsiveness and also ensure that center div isn't incredibly small (minimum size*/
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(19, 169, 233, 0.75); /*changed the color to better fit image*/
+	text-align: center;
+	border: 10px ridge white; /*found a better type of css border style called "ridge," which looks better than dashed for my design*/
+
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-zoom-animation: fadeIn 5s;
+
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+   
+#logo {
+	width: 15%;
+	min-width: 150px;
+	/* these make it so logo is responsive, but never goes under 150 pixels wide which is when it stops being responsive */
+    margin-top: 20px;
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "gimlet-sans-variable", sans-serif, bold;
+	font-size: 3em;
+	font-variation-settings: "slnt" 0, "wght" 500, "opsz" 40;
+	/* this is making the font title bolder*/
+	line-height: 2;
+	padding: 5px 0px px 0px;
+    margin: 0px auto 10px auto;
+    color: #000000;
+
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: "gimlet-sans-variable", sans-serif;
+	font-size: 1.9em;
+    line-height: 0.5;
+    color: #000000;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: "gimlet-sans-variable", sans-serif;
+	font-size: 1.2em;
+    line-height: 1;
+    color: #000000;
+}
+nav{
+	font-family:"gimlet-sans-variable", sans-serif;
+	font-size:1.2em;
+	width:400px;
+	margin: 0 auto;
+	border: solid rgb(114, 243, 230);
+	border-width: 2px 0;
+	text-align: center;
+	margin-top: 1em;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px;
+}
+a{
+	color: #292929;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color:black;
+	background: rgb(221, 109, 44);
+}
+    
+    
+
