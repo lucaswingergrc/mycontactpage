@@ -124,7 +124,7 @@ html, body {
 h1 {
 	font-family: "gimlet-sans-variable", sans-serif, bold;
 	font-size: 3em;
-	font-variation-settings: "slnt" 0, "wght" 500, "opsz" 40;
+	font-variation-settings: "slnt" 0, "wght" 700, "opsz" 40;
 	/* this is making the font title bolder*/
 	line-height: 1;
 	padding: 5px 0px 0px 0px;
@@ -137,7 +137,7 @@ h1 {
 h2 {
 	font-family: "gimlet-sans-variable", sans-serif, bold;
 	font-size: 2em;
-	font-variation-settings: "slnt" 0, "wght" 200, "opsz" 40;
+	font-variation-settings: "slnt" 0, "wght" 400, "opsz" 40;
 	line-height: 2;
 	padding: 5px 0px 0px 0px;
     margin: 0px auto 50px auto;
@@ -149,6 +149,7 @@ nav {
 	font-family:"gimlet-sans-variable", sans-serif;
 	font-size:1.2em;
 	width: 100px;
+	font-variation-settings: "slnt" 0, "wght" 400, "opsz" 40;
 	margin: 0 auto;
 	border: solid rgb(114, 243, 230);
 	border-width: 2px 0;
@@ -178,6 +179,7 @@ nav a {
 	text-align: center;
 	color: white;
 	cursor: pointer;
+
 }
 nav .animation {
 	position: absolute;
@@ -188,30 +190,36 @@ nav .animation {
 	border-radius: 8px;
 }
 a:nth-child(1) {
-	width: 120px;
+	width: 125px;
 }
 a:nth-child(2) {
-	width: 230px;
+	width: 220px;
 }
 a:nth-child(3) {
-	width: 120px;
+	width: 125px;
 }
 nav .start-home, a:nth-child(1):hover~.animation {
-	width: 150px;
+	width: 30%;
 	left: 0;
 	background-color: #1abc9c;
+	opacity: 80%;
 }
 nav .start-about, a:nth-child(2):hover~.animation {
-	width: 200px;
+	width: 40%;
 	left: 150px;
 	background-color: #e74c3c;
+	opacity: 80%;
 }
 nav .start-blog, a:nth-child(3):hover~.animation {
-	width: 150px;
+	width: 30%;
 	left: 350px;
 	background-color: #3498db;
+	opacity: 80%;
 }
-/* these above nav lines set the hovering color and animation, i had to mess with the width of each because i struggled to center it. so the behance one has a bigger hover animation but at least it centered! I also could not figure out how to make these responsive without messing up the proportions so it sticks out when you change window size, oops! */
+/* these above nav lines set the hovering color and animation, i had to mess with the width of each 
+because i struggled to center it. so the behance one has a bigger hover animation but at least 
+it centered! I also could not figure out how to make these responsive without messing up the 
+proportions so it sticks out when you change window size, oops! */
 
 h1 {
 	text-align: center;
